@@ -1,6 +1,6 @@
 # ms4-gr43
 
-## Compile:
+## To compile:
 ```
 ant build-jar
 ```
