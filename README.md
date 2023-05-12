@@ -19,19 +19,19 @@ java -jar m4-server.jar -a localhost -p 30002
 java -jar m4-server.jar -a localhost -p 30003 
 java -jar m4-server.jar -a localhost -p 30004 
 ```
+
 ## Start the client by running the following command:
 ```
 java -jar m4-client.jar
 ```
+In the client CLI, type `help` to show a list of commands supported.
 
-## The instructions below outline the commands utilized by the client terminal.
-
-Connect client to one of the server (e.g. server with port 30000):
+## Sample command to connect to a server (e.g. server with port 30000):
 ```
 connect localhost 30000
 ```
 
-### To use the Transaction feature:
+### Sample commands to use the transaction feature:
 ```
 beginTX
 put key1 value1
@@ -44,7 +44,7 @@ The user can type rollback during transaction to abort:
 rollback
 ```
 
-### To use the Subscribe feature:
+### Sample commands to use the subscribe feature:
 ```
 sub <regex_key>
 unsub <regex_key>
@@ -54,7 +54,8 @@ For example, using ```sub k.*```, the command line interface will display the su
 
 Notification will be printed to the standard output.
 
-### To reuse a Previous Command:
+
+### Sample commands to reuse a previous command:
 The user can type
 ```
 /<num_commands>
