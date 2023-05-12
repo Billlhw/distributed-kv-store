@@ -5,13 +5,13 @@
 ant build-jar
 ```
 
-## Start the ECS by running the following command:
+## Start the ECS:
 ```
 java -jar m4-ecs.jar
 ```
 
 
-## Start five servers using the following commands:
+## Start five servers:
 ```
 java -jar m4-server.jar -a localhost -p 30000 
 java -jar m4-server.jar -a localhost -p 30001 
@@ -20,7 +20,7 @@ java -jar m4-server.jar -a localhost -p 30003
 java -jar m4-server.jar -a localhost -p 30004 
 ```
 
-## Start the client by running the following command:
+## Start the client:
 ```
 java -jar m4-client.jar
 ```
