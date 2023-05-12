@@ -1,5 +1,10 @@
 # ms4-gr43
 
+## Compile:
+```
+ant build-jar
+```
+
 ## Start the ECS by running the following command:
 ```
 java -jar m4-ecs.jar
@@ -26,7 +31,7 @@ Connect client to one of the server (e.g. server with port 30000):
 connect localhost 30000
 ```
 
-### To using the Transaction feature:
+### To use the Transaction feature:
 ```
 beginTX
 put key1 value1
@@ -39,7 +44,7 @@ The user can type rollback during transaction to abort:
 rollback
 ```
 
-### To using the Subscribe feature:
+### To use the Subscribe feature:
 ```
 sub <regex_key>
 unsub <regex_key>
@@ -49,7 +54,7 @@ For example, using ```sub k.*```, the command line interface will display the su
 
 Notification will be printed to the standard output.
 
-### To Reusing a Previous Command:
+### To reuse a Previous Command:
 The user can type
 ```
 /<num_commands>
