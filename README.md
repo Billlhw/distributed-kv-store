@@ -36,10 +36,7 @@ put key2 value2
 put key3 value3
 commitTX
 ```
-The user can type rollback during transaction to abort:
-```
-rollback
-```
+The user can type `rollback` during a transaction to abort.
 
 ### Sample commands to use the subscribe feature:
 ```
