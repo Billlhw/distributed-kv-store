@@ -23,7 +23,7 @@ java -jar m4-client.jar
 ```
 In the client CLI, type `help` to show a list of commands supported.
 
-### Sample command to connect to a server (e.g. the server listening on port 30000):
+### Client command to connect to a server (e.g. the server listening on port 30000):
 ```
 connect localhost 30000
 ```
@@ -49,7 +49,7 @@ For example, ```sub k.*``` subscribes to all keys starting with 'k'.
 Notification will be printed to the standard output.
 
 
-### Sample command to reuse a previous command:
+### Command to reuse a previous command:
 ```
 /<num_commands>
 ```
