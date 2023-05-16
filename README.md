@@ -1,4 +1,4 @@
-# ms4-gr43
+# Distributed Key-value Database
 
 ## To build:
 ```
