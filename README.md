@@ -49,12 +49,10 @@ For example, ```sub k.*``` subscribes to all keys starting with 'k'.
 Notification will be printed to the standard output.
 
 
-### Sample commands to reuse a previous command:
-The user can type
+### Sample command to reuse a previous command:
 ```
 /<num_commands>
 ```
-where ```<num_commands>``` is the number of commands to retrospect. 
-For example, ```/2``` would reuse the second last command.
+For example, ```/2``` would reuse the second last command that the user inputted.
 
 
