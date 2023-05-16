@@ -1,4 +1,4 @@
-# Distributed Key-value Database
+# Distributed Key-value Store
 
 ## To build:
 ```
