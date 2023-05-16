@@ -23,7 +23,7 @@ java -jar m4-client.jar
 ```
 In the client CLI, type `help` to show a list of commands supported.
 
-### Sample command to connect to a server (e.g. server listening on port 30000):
+### Sample command to connect to a server (e.g. the server listening on port 30000):
 ```
 connect localhost 30000
 ```
