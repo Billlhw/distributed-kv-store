@@ -23,12 +23,12 @@ java -jar m4-client.jar
 ```
 In the client CLI, type `help` to show a list of commands supported.
 
-### Sample client command to connect to a server (e.g. server listening on port 30000):
+##### Sample client command to connect to a server (e.g. server listening on port 30000):
 ```
 connect localhost 30000
 ```
 
-### Sample client commands to use the transaction feature:
+##### Sample client commands to use the transaction feature:
 ```
 beginTX
 put key1 value1
@@ -38,7 +38,7 @@ commitTX
 ```
 The user can type `rollback` during a transaction to abort.
 
-### Sample commands to use the subscribe feature:
+##### Sample client commands to use the subscribe feature:
 ```
 sub <regex_key>
 unsub <regex_key>
@@ -49,7 +49,7 @@ For example, ```sub k.*``` subscribes to all keys starting with 'k'.
 Notification will be printed to the standard output.
 
 
-### Sample command to reuse a previous command:
+##### Sample client command to reuse a previous command:
 ```
 /<num_commands>
 ```
