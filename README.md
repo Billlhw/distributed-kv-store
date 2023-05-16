@@ -1,6 +1,6 @@
 # ms4-gr43
 
-### To compile:
+### To build:
 ```
 ant build-jar
 ```
@@ -10,13 +10,11 @@ ant build-jar
 java -jar m4-ecs.jar
 ```
 
-
-### Start servers:
+### Start server instances:
 ```
 java -jar m4-server.jar -a localhost -p 30000 
-java -jar m4-server.jar -a localhost -p 30001 
+java -jar m4-server.jar -a localhost -p 30001
 ...
-
 ```
 
 ### Start a client:
