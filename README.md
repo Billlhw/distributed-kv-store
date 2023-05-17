@@ -53,6 +53,6 @@ Notification will be printed to the standard output.
 ```
 Client> /<num_commands>
 ```
-For example, ```/2``` would reuse the second last command that the user inputted.
+For example, ```/2``` reuses the second last command that the user inputted.
 
 
